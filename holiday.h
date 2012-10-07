@@ -8,8 +8,8 @@ private:
 //a waiting list
   //a queue of customer names (string)
 public:
-//add event
-//remove event
+//book event
+//unbook event
 //add to waiting list
 //remove from waiting list
 }
