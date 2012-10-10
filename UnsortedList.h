@@ -6,8 +6,6 @@ struct NodeType
 		ItemType info;
 		NoteType* next;
 };
-
-
 template <class ItemType>
 class UnsortedList
 {
