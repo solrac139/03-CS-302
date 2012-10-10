@@ -10,13 +10,9 @@ ItemType::ItemType()
 {
 	value = 0;
 }
-
-
 ItemType::~ItemType()
 {
 }
-
-
 RelationType ItemType::ComparedTo(ItemType otherItem) const
 {
 	if  ( value  <  otherItem.value )
@@ -26,14 +22,10 @@ RelationType ItemType::ComparedTo(ItemType otherItem) const
 	else  
 		return  EQUAL ;
 }
-
-
 void ItemType::Print()
 {
 	cout  <<  value  <<  endl;
 }
-
-
 void ItemType::Initialize(int number)
 {
 	value  =  number;

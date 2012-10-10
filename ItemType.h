@@ -11,4 +11,3 @@ public:
 	void Print(void);
 	void Initialize(int number);
 };
-

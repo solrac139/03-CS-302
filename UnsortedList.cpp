@@ -8,8 +8,6 @@ UnsortedList<ItemType>::UnsortedList()
 	length = 0;
 	listData = NULL;
 }
-
-
 template<class ItemType>
 UnsortedList<ItemType>::~UnsortedList()
 {
@@ -22,9 +20,6 @@ UnsortedList<ItemType>::~UnsortedList()
 		delete tempPtr;
 	}
 }
-
-
-
 template<class ItemType>
 void UnsortedType<ItemType>::MakeEmpty()
 {
@@ -38,15 +33,11 @@ void UnsortedType<ItemType>::MakeEmpty()
 	}
 	length=0;
 } 
-
-
 template<class ItemType>
 int UnsortedList<ItemType>::Length() const
 {
 	return length;
 }
-
-
 template<class ItemType>
 bool UnsortedList<ItemType>::IsFull() const
 {
@@ -62,8 +53,6 @@ bool UnsortedList<ItemType>::IsFull() const
 		return true;
 	}
 } 
-
-
 template<class ItemType>
 void UnsortedList::GetItem(ItemType item, bool& found)
 {
@@ -88,7 +77,6 @@ void UnsortedList::GetItem(ItemType item, bool& found)
 	} 
 
 }
-
 template <class ItemType>
 void UnsortedList::PutItem(ItemType item)
 {
@@ -100,8 +88,6 @@ void UnsortedList::PutItem(ItemType item)
 	length++;
 
 }
-
-
 template <class ItemType>
 void UnsortedType<ItemType>::DeleteItem(ItemType item)
 {
@@ -127,15 +113,11 @@ void UnsortedType<ItemType>::DeleteItem(ItemType item)
 	delete tempLocation;
 	length--;
  } 
-
-
-
 template<class ItemType>
 int UnsortedList<ItemType>::ResetList()
 {
 	currentPos = NULL;
 }
-
 template<class ItemType>
 void UnsortedList<ItemType>::GetNextItem(ItemType& item)
 {
@@ -146,7 +128,6 @@ void UnsortedList<ItemType>::GetNextItem(ItemType& item)
 
 	 item = currentPos->info;
 }
-
 template<class ItemType>
 bool UnsortedList<ItemType>::IsLastItem() const
 {
