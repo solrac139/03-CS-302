@@ -1,0 +1,12 @@
+Hey Carlos,
+
+can you help me debug ItemType.h, NodeType.h, UnsortedList.h,, and ItemType.cpp?
+
+I'm getting the following compiling errors and am too tired to sort out their meanings:
+
+Error	1	error LNK2005: "public: enum RelationType __thiscall ItemType::ComparedTo(class ItemType)const " (?ComparedTo@ItemType@@QBE?AW4RelationType@@V1@@Z) already defined in Driver.obj	D:\Users\Asher\Documents\Visual Studio 2012\Projects\CS 302\Assignment #3\Scheduler\Scheduler\ItemType.obj
+Error	2	error LNK2005: "public: void __thiscall ItemType::Initialize(int)" (?Initialize@ItemType@@QAEXH@Z) already defined in Driver.obj	D:\Users\Asher\Documents\Visual Studio 2012\Projects\CS 302\Assignment #3\Scheduler\Scheduler\ItemType.obj
+Error	3	error LNK2005: "public: void __thiscall ItemType::Print(void)" (?Print@ItemType@@QAEXXZ) already defined in Driver.obj	D:\Users\Asher\Documents\Visual Studio 2012\Projects\CS 302\Assignment #3\Scheduler\Scheduler\ItemType.obj
+Error	4	error LNK1169: one or more multiply defined symbols found	D:\Users\Asher\Documents\Visual Studio 2012\Projects\CS 302\Assignment #3\Scheduler\Debug\Scheduler.exe
+
+Asher
